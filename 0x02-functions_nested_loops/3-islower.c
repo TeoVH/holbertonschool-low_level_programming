@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- * _islower(int c) - Function
- *
+ * _islower - Entry point
  * @c: is a parameter
- *
- * return none
+ * Return: Always 0 (Success)
  *
  */
 
