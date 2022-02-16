@@ -5,7 +5,7 @@
  * _isalpha - Entry point
  * @c: is a parameter
  * Return: Always 0
- */ 
+ */
 
 int _isalpha(int c)
 {
