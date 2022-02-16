@@ -1,24 +1,21 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * Main - cheack the code
- *
- * Return: Always 0
- *
+/**
+ * print_alphabet - prints lowercase alphabet
+ * Return: 0
  */
 
 void print_alphabet(void)
 {
+	char alpha;
 
-	char alfabeto;
+	alpha = 'a';
 
-	alfabeto = 'a';
-	
-	while (alfabeto <= 'z')
+	while (alpha <= 'z')
 	{
-		_putchar(alfabeto);
-		alfabeto++;
+		_putchar(alpha);
+		alpha++;
 	}
 	_putchar('\n');
 }
