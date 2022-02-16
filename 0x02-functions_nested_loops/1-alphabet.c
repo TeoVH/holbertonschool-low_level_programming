@@ -10,6 +10,7 @@
 
 void print_alphabet(void)
 {
+
 	char alfabeto;
 
 	alfabeto = 'a';
