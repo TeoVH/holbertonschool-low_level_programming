@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
+ * _islower(int c) - Function
  *
- *int _islower(int c)
- *
- *c is a parameter
+ * @c: is a parameter
  *
  * return none
  *
