@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mian.h"
+#include "main.h"
 
 /**
  * _strlen - Entry point
