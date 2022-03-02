@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * _puts_recursion - Entry point
+ * @s: Is a parameter that pass the string
+ * Return: none
+ */
+
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
