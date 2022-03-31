@@ -60,6 +60,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		{
 			tmp = tmp->next;
 		}
+		tmp->next = new_node;
 	}
 
 	return (new_node);
