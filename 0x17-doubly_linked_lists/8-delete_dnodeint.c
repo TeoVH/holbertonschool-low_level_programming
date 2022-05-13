@@ -31,6 +31,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	}
 	if (bfr_node)
 	{
+		tmp_node = bfr_node->next;
 		if (tmp_node->next)
 			tmp_node->next->prev = bfr_node;
 		free(tmp_node);
